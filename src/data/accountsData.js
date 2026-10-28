@@ -1,0 +1,45 @@
+// Predefined system accounts for role-based access control
+export const initialAccounts = {
+  'admin': {
+    username: 'admin',
+    studentNum: 'ADMIN-001',
+    fullName: 'System Administrator',
+    role: 'admin',
+    department: 'Administration',
+    email: 'admin@ccdi.edu.ph',
+    password: 'admin123',
+    avatar: null,
+  },
+  'accounting': {
+    username: 'accounting',
+    studentNum: 'ACCT-101',
+    fullName: 'Accounting Department Head',
+    role: 'accounting',
+    department: 'Accounting',
+    email: 'accounting@ccdi.edu.ph',
+    password: 'acct123',
+    avatar: null,
+  },
+  'cashier': {
+    username: 'cashier',
+    studentNum: 'CSH-201',
+    fullName: 'Chief Cashier Officer',
+    role: 'cashier',
+    department: 'Cashier',
+    email: 'cashier@ccdi.edu.ph',
+    password: 'cashier123',
+    avatar: null,
+  },
+  '2026-0001': {
+    username: '2026-0001',
+    studentNum: '2026-0001',
+    fullName: 'Faith Dela Cruz',
+    role: 'student',
+    course: 'BS Information Technology - 3rd Year',
+    department: 'Student',
+    email: 'faith.delacruz@ccdi.edu.ph',
+    password: 'student123',
+    avatar: null,
+  },
+};
+
